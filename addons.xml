@@ -79,7 +79,7 @@
             <platform>all</platform>
         </extension>
     </addon>
-    <addon id="plugin.video.IskierekWrestling" name="Iskierek Pro Wrestling" version="2026.05.12.8" provider-name="community">
+    <addon id="plugin.video.IskierekWrestling" name="Iskierek Pro Wrestling" version="2026.05.15.1" provider-name="community">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.requests" />
