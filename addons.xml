@@ -120,7 +120,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="repository.iskierek.repo" name="Iskierek-repo" version="2026.05.12.2" provider-name="Iskierek">
+    <addon id="repository.iskierek.repo" name="Iskierek-repo" version="2026.05.15.1" provider-name="Iskierek">
         <extension point="xbmc.addon.repository" name="Iskierek-repo">
             <dir>
                 <info compressed="false">https://raw.githubusercontent.com/Iskierek100/iskierek-repo/main/addons.xml</info>
