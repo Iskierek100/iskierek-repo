@@ -10,7 +10,7 @@
             <platform>all</platform>
         </extension>
     </addon>
-    <addon id="plugin.video.Iskierek-IPTV-Full" name="[COLOR yellow]Iskierek[/COLOR] [COLOR aqua]IPTV[/COLOR] [COLOR red]FULL[/COLOR]" version="2026.05.12.2" provider-name="Iskierek">
+    <addon id="plugin.video.Iskierek-IPTV-Full" name="[COLOR yellow]Iskierek[/COLOR] [COLOR aqua]IPTV[/COLOR] [COLOR red]FULL[/COLOR]" version="2026.05.15.1" provider-name="Iskierek">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.six" />
