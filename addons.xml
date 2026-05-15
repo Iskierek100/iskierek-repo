@@ -1,24 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <addons>
-    <addon id="repository.iskierek.repo" name="Iskierek-repo" version="2026.05.12.2" provider-name="Iskierek">
-        <extension point="xbmc.addon.repository" name="Iskierek-repo">
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/Iskierek100/iskierek-repo/refs/heads/main/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/Iskierek100/iskierek-repo/main/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/Iskierek100/iskierek-repo/main/zips/</datadir>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="pl">Repozytorium Iskierek</summary>
-            <description lang="pl">Oficjalne repozytorium dodatków Iskierek</description>
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
-            </assets>
-            <platform>all</platform>
-        </extension>
-    </addon>
-    <addon id="plugin.close.kodi" name="[COLOR red] Force Close Kodi[/COLOR] " version="2026.05.12.2" provider-name="Based_Skid">
+    <addon id="plugin.close.kodi" name="[COLOR red] Force Close Kodi[/COLOR] " version="2026.05.12.8" provider-name="Based_Skid">
         <extension point="xbmc.python.pluginsource" library="default.py">
             <provides>executable</provides>
         </extension>
@@ -97,7 +79,7 @@
             <platform>all</platform>
         </extension>
     </addon>
-    <addon id="plugin.video.IskierekWrestling" name="Iskierek Pro Wrestling" version="2026.05.12.2" provider-name="community">
+    <addon id="plugin.video.IskierekWrestling" name="Iskierek Pro Wrestling" version="2026.05.12.8" provider-name="community">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.requests" />
@@ -117,7 +99,7 @@
             <platform>all</platform>
         </extension>
     </addon>
-    <addon id="plugin.video.f4mTester" version="2026.05.12.2" name="f4mTester" provider-name=":) ">
+    <addon id="plugin.video.f4mTester" version="2026.05.12.5" name="f4mTester" provider-name=":) ">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.six" />
@@ -138,7 +120,25 @@
             </assets>
         </extension>
     </addon>
-    <addon id="script.checkurl" name="Check URL" version="2026.05.12.2" provider-name="Kasio">
+    <addon id="repository.iskierek.repo" name="Iskierek-repo" version="2026.05.12.2" provider-name="Iskierek">
+        <extension point="xbmc.addon.repository" name="Iskierek-repo">
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/Iskierek100/test/main/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Iskierek100/test/main/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/Iskierek100/test/main/zips/</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="pl">Repozytorium Iskierek</summary>
+            <description lang="pl">Oficjalne repozytorium dodatków Iskierek</description>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+            <platform>all</platform>
+        </extension>
+    </addon>
+    <addon id="script.checkurl" name="Check URL" version="2026.05.12.9" provider-name="Kasio">
         <extension point="xbmc.python.script" library="default.py" />
         <extension point="xbmc.addon.metadata">
             <summary>Zapisuje URL aktualnie odtwarzanego strumienia</summary>
@@ -146,26 +146,7 @@
             <platform>all</platform>
         </extension>
     </addon>
-    <addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="2026.05.12.2" provider-name="sualfred,marcelveldt">
-        <requires>
-            <import addon="xbmc.python" version="3.0.1" />
-            <import addon="script.module.pil" version="1.1.7" />
-        </requires>
-        <extension point="xbmc.python.library" library="default.py" />
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</summary>
-            <description lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</description>
-            <platform>all</platform>
-            <license>GPL-2.0</license>
-            <forum>https://forum.kodi.tv/showthread.php?tid=235676</forum>
-            <source>https://github.com/kodi-community-addons/script.skin.helper.colorpicker</source>
-            <assets>
-                <icon>resources/icon.png</icon>
-                <fanart>resources/fanart.jpg</fanart>
-            </assets>
-        </extension>
-    </addon>
-    <addon id="script.video.F4mProxy" name="F4mProxy" version="2026.05.12.2" provider-name=":) ">
+    <addon id="script.video.F4mProxy" name="F4mProxy" version="2026.05.12.5" provider-name=":) ">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.requests" />
