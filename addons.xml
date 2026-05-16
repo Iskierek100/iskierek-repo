@@ -79,7 +79,7 @@
             <platform>all</platform>
         </extension>
     </addon>
-    <addon id="plugin.video.IskierekWrestling" name="Iskierek Pro Wrestling" version="2026.05.15.3" provider-name="community">
+    <addon id="plugin.video.IskierekWrestling" name="Iskierek Pro Wrestling" version="2026.05.15.2" provider-name="community">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.requests" />
@@ -120,7 +120,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.iskierek_dream" name="[COLOR blue]D[COLOR salmon]r[COLOR violet]e[COLOR yellow]a[COLOR orange]m[COLOR lime][/COLOR]" version="26.3.8" provider-name="[COLOR springgreen]G[/COLOR] [COLOR magenta]I[/COLOR][COLOR violet]n[/COLOR][COLOR mediumorchid]c[/COLOR][COLOR orchid].[/COLOR]">
+    <addon id="plugin.video.iskierek_dream" name="[COLOR blue]D[COLOR salmon]r[COLOR violet]e[COLOR yellow]a[COLOR orange]m[COLOR lime][/COLOR]" version="2026.05.16.1" provider-name="[COLOR springgreen]G[/COLOR] [COLOR magenta]I[/COLOR][COLOR violet]n[/COLOR][COLOR mediumorchid]c[/COLOR][COLOR orchid].[/COLOR]">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.requests" />
@@ -149,7 +149,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="repository.iskierek.repo" name="Iskierek-repo" version="2026.05.15.1" provider-name="Iskierek">
+    <addon id="repository.iskierek.repo" name="Iskierek-repo" version="2026.05.16.1" provider-name="Iskierek">
         <extension point="xbmc.addon.repository" name="Iskierek-repo">
             <dir>
                 <info compressed="false">https://raw.githubusercontent.com/Iskierek100/iskierek-repo/main/addons.xml</info>
@@ -167,7 +167,7 @@
             <platform>all</platform>
         </extension>
     </addon>
-    <addon id="repository.thelab" name="TheLab Repository" version="2026.05.16.1" provider-name="[COLORpurple]• [COLORorchid]Tech [COLORdarkorchid]E [COLORplum]Coyote [COLORpurple]•[/COLOR]">
+    <addon id="repository.thelab" name="TheLab Repository" version="25.3.27" provider-name="[COLORpurple]• [COLORorchid]Tech [COLORdarkorchid]E [COLORplum]Coyote [COLORpurple]•[/COLOR]">
         <extension point="xbmc.addon.repository" name="TheLab Repository">
             <dir minversion="20.0" maxversion="20.9.0">
                 <info compressed="false">https://www.midian.appboxes.co/wolfyB/Th3L48/nexus/zips/addons.xml</info>
